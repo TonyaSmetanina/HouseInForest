@@ -24,8 +24,7 @@
         <li>ЗАБРОНЮВАТИ</li>
         <li>КОНТАКТИ</li>
         <li class="item-menu">
-          ОСОБИСТИЙ <br />
-          КАБІНЕТ
+          ОСОБИСТИЙ КАБІНЕТ
         </li>
         <li>
           <div class="img-lang">
@@ -41,7 +40,7 @@
 
     <div class="container">
       <div class="place">
-        <h2>Оберіть місцерозташування</h2>
+        <p>Оберіть місцерозташування</p>
       </div>
 
       <!--Content with cards  -->
@@ -196,9 +195,9 @@
 
     <!-- Separate inforamtion block -->
     <div class="main-title">Особистий кабінет</div>
-    <div class="container2">
+    <!-- <div class="container2"> -->
       <div class="card-one">
-        <div class="card-one-content">
+        <div class="card-one-left">
           <div class="card-one-image">
             <img class="" src="img/ava.png" alt="аватар" />
           </div>
@@ -209,67 +208,58 @@
             <a class="btn-change-second" href="">Налаштування</a>
           </div>
         </div>
-        <div>
-          <p class="account"><span> Петров Іван Іванович </span></p>
-          <p class="account"><span> Стать: </span> чоловіча</p>
-          <p class="account"><span> Дата народження: </span> 10. 02. 1998</p>
-          <p class="account">
+        <div class="card-one-right">
+          <div class="account"><span> Петров Іван Іванович </span></div>
+          <div class="account"><span> Стать: </span> чоловіча</div>
+          <div class="account"><span> Дата народження: </span> 10. 02. 1998</div>
+          <div class="account">
             <span> Мобільний телефон: </span> +38(097)346-72-50
-          </p>
-          <p class="account"><span>Ел. пошта: </span> petrov@gmail.com</p>
+          </div>
+          <div class="account"><span>Ел. пошта: </span> petrov@gmail.com</div>
         </div>
       </div>
       <a class="btn-logout" href="#"> Вийти </a>
-    </div>
 
     <!-- Footer -->
     <div class="main-title">Контакти</div>
-    <div class="contacs">
-      <table>
-        <tr>
-          <td>Телефон</td>
-          <td>Графік роботи</td>
-          <td>Ел. пошта</td>
-        </tr>
-        <tr>
-          <td class="tel" rowspan="3" style="vertical-align: baseline">
-            <a class="link-decoration" href="tel:+38(097)119-89-83"
-              >+38(097)119-89-83</a
-            >
-          </td>
-          <td class="tel">пн-пт 08:00-22:00</td>
-          <td class="tel">
-            <a class="link-decoration" href="mailto:hello@gmail.com">
-              hello@gmail.com
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>сб 09:00-21:00</td>
-        </tr>
-        <tr>
-          <td>вс 10:00-20:00</td>
-        </tr>
-      </table>
-    </div>
-    <div class="adress">
-      <div class="adress-main">
-        <p>Адреса офісу</p>
-        <img src="img/line.png" alt="лінія" />
-        <p>м. Київ, вул. Малевича, буд. 4</p>
+
+  <div class="footer">
+      <div class = "footer-up">
+          <div class="footer-up-phone">
+            <div class="footer-up-phone-title">Телефон</div>
+            <div class="footer-up-phone-desc">
+              <a href="tel:+38(097)119-89-83">+38(097)119-89-83</a>
+            </div>
+          </div>
+
+        <div class="footer-up-worktime">
+          <div class="footer-up-worktime-title">Графік роботи</div>
+          <div class="footer-up-worktime-desc">
+              <div>пн-пт 08:00-22:00</div>
+              <div>сб 09:00-21:00</div>
+              <div>вс 10:00-20:00</div>
+          </div>
+        </div>
+      <div class="footer-up-mail">
+        <div class="footer-up-mail-title">Ел. пошта</div>
+        <div class="footer-up-mail-desc">
+            <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+        </div>
       </div>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11397.488442711536!2d30.526371363876006!3d50.487614534521065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce02e4080bab%3A0x2b2f2b52535638e0!2z0KDQpiDQkdC70L7QutCx0LDRgdGC0LXRgA!5e0!3m2!1suk!2sua!4v1661440798371!5m2!1suk!2sua"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+   </div>
+  </div>
+      <div class="footer-down">
+        <div class="footer-down-address">
+            <div class="footer-down-address-title">Адреса офісу</div>
+            <div class="footer-down-address-desc">м. Київ, вул. Малевича, буд. 4</div>
+        </div>
+        <div class="google-map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.7127464307805!2d30.5112028!3d50.4278234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1e4f6914e5%3A0xbcdcd80ffeaf9ae3!2z0LLRg9C70LjRhtGPINCa0LDQt9C40LzQuNGA0LAg0JzQsNC70LXQstC40YfQsCwgNCwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1661269551492!5m2!1suk!2sua"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
+
 
     <div class="bottom">
       Coded by Smetanina Antonina,
